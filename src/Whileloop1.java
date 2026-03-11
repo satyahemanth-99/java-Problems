@@ -6,9 +6,15 @@ public class Whileloop1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int i = 0;
         System.out.println("Enter Here: ");
-        int a = Integer.parseInt(br.readLine());
+        int a = 3;
         while(i < a){
             System.out.println("hello " + (i + 1));
+            int j = 0;
+            while(j < 3 ){
+                System.out.println("hii " + (j + 1));
+                j++;
+            }
+
             i++;
         }
     }
