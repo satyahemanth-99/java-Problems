@@ -6,9 +6,12 @@ class Car{
 }
 public class Classnobjects02 {
     static void main(String[] args) {
-        Car car1 = new Car();
-        String result = car1.displayInfo("audio", 267);
+        Car mysportcar = new Car();
+        String result = mysportcar.displayInfo("audio", 267);
         System.out.println(result);
+
+        Car mytruck = new Car();
+        System.out.println(mytruck.displayInfo("Ford", 90));
     }
 
 }
