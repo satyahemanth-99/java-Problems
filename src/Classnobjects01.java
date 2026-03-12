@@ -1,8 +1,16 @@
+class Calculator{
+    public int add(int n1, int n2){
+        int r = n1 + n2;
+        return r;
+    }
+}
+
 public class Classnobjects01 {
     public static void main(String[] args){
-        int num1 = 2;
-        int num2 = 3;
-        int results = num1 + num2;
-        System.out.println(results);
+        Calculator cal1 = new Calculator();
+        int a = 5;
+        int b = 6;
+        int result = cal1.add(a, b);
+        System.out.println(result);
     }
 }
