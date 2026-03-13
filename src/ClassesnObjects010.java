@@ -8,13 +8,13 @@ public class ClassesnObjects010 {
 
         {
             System.out.println("enter value here: ");
-            int num = sc.nextInt();
+            int num = sc.nextInt(); //35, 65, 42
 
             if (mat < num) {
                 mat = num;
             }
 
         }
-        System.out.println("higest value is " + mat);
+        System.out.println("Higest value is " + mat);
     }
 }
