@@ -9,7 +9,7 @@ class Mmath{
 public class ClassnObjects08 {
     static void main(String[] args) {
         Mmath mat1 = new Mmath();
-        int result = mat1.add(2,3);
+        int result = mat1.add(2,3,4);
         System.out.println(result);
     }
 }
