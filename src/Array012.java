@@ -3,7 +3,7 @@ public class Array012 {
         int[][] nums = new int[3][6];
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 6; j++){
-                nums[i][j] = (int)(Math.random() * 20);
+                nums[i][j] = (int)(Math.random() * 10);
             }
         }
         for(int a = 0; a < 3; a++){
