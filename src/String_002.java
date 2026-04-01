@@ -16,5 +16,11 @@ public class String_002 {
 
         sb.insert(1, "olla ");
         System.out.println(sb);
+
+
+        System.out.println(sb.substring(2,9));
+
+        sb.setLength(10);
+        System.out.println(sb);
     }
 }
